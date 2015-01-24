@@ -1,0 +1,11 @@
+{
+  "name": "angular-searchable-list",
+  "description": "angular-searchable-list",
+  "version": "0.0.1",
+  "dependencies": {},
+  "repository": "",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "pd-gulp-js-task": "git://github.com/platdesign/pd-gulp-js-task"
+  }
+}

@@ -1,0 +1,59 @@
+pd-searchable-list {
+	display: block;
+
+	input[type="search"] {
+		border-radius: 1em;
+		border: none;
+		outline: none;
+		padding: .2em .5em;
+		width: 100%;
+		box-sizing: border-box;
+		opacity: .6;
+		transition: opacity .2s;
+
+		&:focus {
+			opacity: 1;
+		}
+
+		&::placeholder {
+			font-weight: 100;
+			padding-top: .1em;
+		}
+	}
+
+	header {
+		padding: 10px 8px;
+		background: rgba(white, .1);
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	%hint {
+		padding-top: .5em;
+		font-size: 2em;
+		color: rgba(white, .3);
+		text-align: center;
+		&:after {
+
+		}
+	}
+
+	.no-results {
+		@extend %hint;
+
+		&:after {
+			content:'No results';
+		}
+	}
+
+	.no-items {
+		@extend %hint;
+
+		&:after {
+			content:'No items';
+		}
+	}
+}
