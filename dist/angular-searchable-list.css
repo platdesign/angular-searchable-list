@@ -1,0 +1,7 @@
+/*
+@project	angular-searchable-list
+@author		Christian Blaschke <mail@platdesign.de>
+@version	0.0.1
+@created	2015-01-26 20:46:22
+*/
+pd-searchable-list{display:block}pd-searchable-list input[type="search"]{border-radius:1em;border:none;outline:none;padding:.2em .5em;width:100%;box-sizing:border-box;opacity:.6;-webkit-transition:opacity .2s;transition:opacity .2s}pd-searchable-list input[type="search"]:focus{opacity:1}pd-searchable-list input[type="search"]::-webkit-input-placeholder{font-weight:100;padding-top:.1em}pd-searchable-list input[type="search"]::-moz-placeholder{font-weight:100;padding-top:.1em}pd-searchable-list input[type="search"]:-ms-input-placeholder{font-weight:100;padding-top:.1em}pd-searchable-list input[type="search"]::placeholder{font-weight:100;padding-top:.1em}pd-searchable-list header{padding:10px 8px;background:rgba(255,255,255,0.1)}pd-searchable-list ul{margin:0;padding:0}pd-searchable-list .no-results,pd-searchable-list .no-items{padding-top:.5em;font-size:2em;color:rgba(255,255,255,0.3);text-align:center}pd-searchable-list .no-results:after{content:'No results'}pd-searchable-list .no-items:after{content:'No items'}
