@@ -5,11 +5,13 @@ pd-searchable-list {
 		border-radius: 1em;
 		border: none;
 		outline: none;
-		padding: .2em .5em;
+		padding-left: .5em;
+		padding-right: .5em;
 		width: 100%;
 		box-sizing: border-box;
 		opacity: .6;
 		transition: opacity .2s;
+		line-height: 1.5em;
 
 		&:focus {
 			opacity: 1;
@@ -17,13 +19,17 @@ pd-searchable-list {
 
 		&::placeholder {
 			font-weight: 100;
-			padding-top: .1em;
 		}
 	}
 
-	header {
-		padding: 10px 8px;
-		background: rgba(white, .1);
+	header.search {
+		padding: .6em .5em;
+		//background: rgba(white, .1);
+		opacity: .7;
+		transition: opacity .3s;
+		&:hover {
+			opacity: 1;
+		}
 	}
 
 	ul {
